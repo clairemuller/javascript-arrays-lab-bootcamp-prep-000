@@ -33,7 +33,7 @@ var removeLastKitten = () => {
 };
 
 var removeFirstKitten = () => {
-  var kittens2 = kittens.slice(0, 1);
+  var kittens2 = kittens.slice();
   return kittens2;
 };
 
